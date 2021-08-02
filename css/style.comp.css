@@ -252,12 +252,16 @@ body {
     margin: 1.5rem 3rem; }
     @media only screen and (max-width: 36.25em) {
       .overview__heading {
-        font-size: 1.5rem; } }
+        font-size: 1.1rem; } }
   .overview__icon-star, .overview__location-icon {
     width: 1.75rem;
     height: 1.75rem;
     fill: var(--color-primary);
     margin-right: .5rem; }
+    @media only screen and (max-width: 36.25em) {
+      .overview__icon-star, .overview__location-icon {
+        width: 1.5rem;
+        height: 1.5rem; } }
   .overview__location {
     display: flex; }
   .overview__rating {
@@ -475,7 +479,13 @@ body {
     position: absolute;
     top: -100%;
     left: 0;
-    padding: 2rem 7.5rem; }
+    padding: 1rem 7.5rem; }
+    @media only screen and (max-width: 68.75em) {
+      .btn__invisible {
+        padding: 2rem 7.5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .btn__invisible {
+        padding: 2rem 7.5rem; } }
   .btn:hover {
     background-image: linear-gradient(to left bottom, var(--color-primary), var(--color-primary-dark)); }
   .btn:hover .btn__visible {

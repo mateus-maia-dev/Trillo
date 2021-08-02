@@ -256,7 +256,7 @@
         margin: 1.5rem 3rem;
 
         @media only screen and (max-width: $bp-small) {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
         }
     }
 
@@ -266,6 +266,11 @@
         height: 1.75rem;
         fill: var(--color-primary);
         margin-right: .5rem;
+
+        @media only screen and (max-width: $bp-small) {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
     }
 
     &__location {
@@ -585,7 +590,15 @@
         position: absolute;
         top: -100%;
         left: 0;
-        padding: 2rem 7.5rem;
+        padding: 1rem 7.5rem;
+
+        @media only screen and (max-width: $bp-large) {
+            padding: 2rem 7.5rem;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            padding: 2rem 7.5rem;
+        }
         
     }
 
